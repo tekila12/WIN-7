@@ -1,0 +1,21 @@
+
+*{
+  text-decoration: none;
+ 
+}
+.hover__Panel{
+position: absolute;
+bottom: 2%;
+width: 73px;
+height:13px;
+text-align: center;
+margin-left: 130px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgb(61, 60, 60);
+background-color: rgb(185, 180, 180);
+font-size: 12px;
+align-items: center;
+padding: 3px;
+border: 1px solid rgb(61, 60, 60);
+}
+

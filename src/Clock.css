@@ -1,0 +1,10 @@
+.Time {
+
+    position:absolute;
+    bottom:0;
+    right:0;
+    font-size: 15px;
+    color:white;
+    margin-bottom:auto;
+    padding-right: 10px;
+}

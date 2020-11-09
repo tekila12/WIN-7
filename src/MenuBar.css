@@ -1,0 +1,77 @@
+.menubar{
+position: absolute;
+margin-bottom: 555px;
+margin-left: 0px;
+border: 5px solid rgba(0, 0, 0, 0.3);
+width: 280px;
+height: 500px;
+border-bottom: none;
+border: 2px solid  #3686a8;
+border-radius: 20px
+}
+
+.leftmenu__icons {
+height: 15px;
+width: 15px;
+display: flex;
+flex-direction: column;
+width: 120px;
+height: 500px;
+background-color: #ffffff;
+border-radius: 17px 0px 0px 17px;
+}
+
+
+
+.rightmenu__icons{
+height: 500px;
+width: 160px;
+background: linear-gradient(#33271a, #3686a8);;
+bottom: 57.5%;
+display: flex;
+position: relative;
+margin-left: 120px;
+border-radius: 0px 17px 17px 0px;
+}
+
+
+
+.rightmenu__icons >img{
+height: 30px;
+width: 30px;
+margin-left: 10px;
+cursor: pointer;
+}
+
+
+
+.rightmenu__icons >h5{
+color: #e9e0e0;
+margin-bottom: 20px;
+margin-left: 8px;
+margin-top: 12px;
+}
+
+
+
+.windows__icon2{
+height: 40px;
+width: 40px;
+display: flex;
+align-items: center;
+padding: 0px 0px 8px 2px;
+}
+
+
+
+.menuCreed{
+height: 45px;
+width: 47px;
+}
+
+
+.windows__icon2> h6{
+color: #030000;
+text-decoration: none;
+font-size: 12px;
+}

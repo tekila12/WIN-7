@@ -1,0 +1,262 @@
+.taskbar{
+position: fixed;
+bottom: 0px;
+max-width: 100vw;
+width: 100%;
+max-height: 50px;
+font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+display:flex;
+align-items: center; 
+border-top: 1px solid rgba(0, 0, 0, 0.3);;
+background: linear-gradient(to top, rgba(0, 204, 255, 0.568), rgb(2, 47, 61));
+
+}
+
+
+.menu{
+height:40px;
+width:40px;
+cursor: pointer;
+margin-top: 2px;
+padding: 7px;
+margin-right: 0px;
+
+}
+
+
+.menu:hover{
+width: 40px;
+height: 40px;
+background-color: rgb(36, 36, 36);
+  
+}
+
+
+
+
+
+.chrome > img{
+height: 42px;
+width: 42px;
+margin-top: 2px;
+padding: 4px;
+position: relative;
+
+}
+
+.chrome > img:hover{
+     
+    
+background-color: rgb(36, 36, 36);
+height: 42px;
+width: 42px
+      
+   
+}
+
+.taskbar__icons{
+position: absolute;
+display: flex;
+right: 0;
+width: 10%;
+justify-content: space-between;
+align-items: center;
+margin-right:110px ;
+cursor: pointer;
+color:rgba(253, 247, 247, 0.9);
+
+
+
+}
+
+.controlpanel{
+width: 39px;
+height: 39px;
+cursor: pointer;
+margin-left: 105px;
+position: absolute;
+padding:7px;
+bottom: -0.3%;
+margin-top: 1px;
+}
+
+
+
+.controlpanel:hover{
+height: 39px;
+background-color: rgb(36, 36, 36);   
+}
+
+
+
+.taskbar__icons > .MuiSvgIcon-root:hover{ 
+background-color: black;
+background-size: 40px;
+
+}
+
+
+
+
+
+.startMenu{
+position: absolute;
+ margin-bottom: 85px;
+   width: 35px;
+   height:13px;
+   text-align: center;
+   margin-left: 5px;
+
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: rgb(61, 60, 60);
+    background-color: rgb(185, 180, 180);
+   font-size: 12px;
+   align-items: center;
+   padding: 3px;
+   border: 1px solid rgb(61, 60, 60);
+
+}
+
+.GoogleChrome{
+    position: absolute;
+    margin-bottom: 80px;
+    width: 45px;
+    height:43px;
+    text-align: center;
+    margin-left: 85px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(61, 60, 60);
+    background-color: rgb(185, 180, 180);
+    font-size: 12px;
+    align-items: center;
+    padding: 3px;
+    border: 1px solid rgb(61, 60, 60);
+  
+  }
+  
+
+
+
+  
+.hover__Icons{
+    position: absolute;
+    margin-bottom: 30px;
+    width: 105px;
+    height:13px;
+    text-align: center;
+    margin-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(61, 60, 60);
+    background-color: rgb(185, 180, 180);
+    font-size: 12px;
+    align-items: center;
+    padding: 3px;
+    border: 1px solid rgb(61, 60, 60);
+  }
+
+
+
+
+  .hover__Flag{
+    position: absolute;
+    margin-bottom: 30px;
+    width: 65px;
+    height:13px;
+    text-align: center;
+    margin-left: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(61, 60, 60);
+    background-color: rgb(185, 180, 180);
+    font-size: 12px;
+    align-items: center;
+    padding: 3px;
+    border: 1px solid rgb(61, 60, 60);
+  }
+
+
+
+  
+  .hover__Wifi{
+    position: absolute;
+    margin-bottom: 30px;
+    width: 85px;
+    height:26px;
+   
+    margin-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(61, 60, 60);
+    background-color: rgb(185, 180, 180);
+    font-size: 12px;
+    align-items: center;
+    padding: 3px;
+    border: 1px solid rgb(61, 60, 60);
+  }
+
+
+
+  
+  .hover__Sound{
+    position: absolute;
+    margin-bottom: 30px;
+    width: 85px;
+    height:13px;
+    text-align: center;
+    margin-left: 140px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(61, 60, 60);
+    background-color: rgb(185, 180, 180);
+    font-size: 12px;
+    align-items: center;
+    padding: 3px;
+    border: 1px solid rgb(61, 60, 60);
+  }
+
+
+
+  @media all and (max-width:1280px){
+    .taskbar__icons{
+    position:absolute ;
+    bottom: 50px;
+    width: 50px;
+    height:200px;
+    background: linear-gradient(to top, rgba(0, 204, 255, 0.568), rgb(2, 47, 61));
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+      }
+
+
+  .hover__Icons{
+  position: absolute;
+  right: 80%;
+  font-size: 10px;
+  width: 60px;
+  height: 20px;
+   }
+
+   .hover__Flag{
+  bottom: 50%;
+  font-size: 10px;
+  right: 80%;
+  width: 50px;
+  height: 10px;
+   }
+      
+
+.hover__Sound{
+  right: 80%;
+  font-size: 10px;
+  width: 65px;
+  height: 10px;
+  bottom: 1%;
+  z-index: 9999;
+
+}
+   .hover__Wifi{
+     right: 60%;
+     font-size: 10px;
+     bottom: 20%;
+     width: 70px;
+     height: 20px;
+   }
+    }

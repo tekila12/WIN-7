@@ -1,0 +1,28 @@
+.windows__iconsBot{
+    display: flex;
+    position: absolute;
+    height: 40px;	
+    width: 50px;
+    right: 0;
+    bottom: 250px;
+    margin: 80px;
+    padding: 10px;
+    padding-left: 70px;
+    text-align: center;
+    margin-left: 40px;
+
+    }
+        
+    .windows__icon1 >img{
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    }
+        
+    .windows__icon1> figcaption{
+    color: ivory;
+    font-size: 12px;
+    }
+    
+
+    

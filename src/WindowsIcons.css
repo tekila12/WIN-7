@@ -1,0 +1,32 @@
+.windows__icons{
+    display: flex;
+    flex-direction: column;
+        
+      text-align: center;
+      
+    z-index: 9999;
+      height: 50px;
+      width: 50px;
+  
+  padding: 20px 0px 10px 0px;
+  margin-left: 20px;
+  }
+  .windows__icon>img{
+   margin: auto;
+   display: flex;
+  
+   flex-direction: column;
+  height: 50px;
+  width: 50px;
+  }
+  
+  .windows__icon > figcaption {
+      color: #f1eaea;
+      font-size: 12px;
+      
+  }
+  
+
+  
+
+
