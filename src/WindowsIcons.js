@@ -8,34 +8,29 @@ import { HiddenContext, } from './HiddenContext';
 
 
   export default function WindowsIcons(){
-  const { hideMessenger} = React.useContext(HiddenContext);
-  const { hideTwitter} = React.useContext(HiddenContext);
-  const { hideGoogle} = React.useContext(HiddenContext);
-  const { hideCreed} = React.useContext(HiddenContext);
-
+  const { hideLol, hideCreed, hideSteam, hideGoogle} = React.useContext(HiddenContext);
   return (
         <div className="windows__icons">
-<div className='windows__hover'>
-          {!hideTwitter &&  (      
+         
+          {!hideSteam &&  (      
            <Router>
            <Link className="windows__icon"
             onClick={() => {
-            window.location.href = 'https://twitter-clone-55639.web.app/';
+            window.location.href ='https://steam-3e578.web.app/';
             }}>
-            <img src="./icons/icons8-twitter-48.png" alt="Twitter"/>
-            <figcaption>Twitter clone</figcaption>
+            <img src="./icons/steamm.png" alt="steamm"/>
+            <figcaption>Steam</figcaption>
                 </Link>
             </Router>)}
-
-</div>
-          {!hideMessenger &&  (  
+         
+          {!hideLol &&  (  
           <Router>
            <Link className="windows__icon" 
              onClick={() => {
-             window.location.href = 'https://messenger-1340f.web.app';
+             window.location.href = 'https://league-583b0.web.app/';
              }}>                
-             <img src="/icons/icons8-facebook-messenger-48.png"/>
-             <figcaption>Messenger clone</figcaption>
+             <img src="/icons/lol.png"/>
+             <figcaption>League of Legends</figcaption>
            </Link>
           </Router> ) }
 
